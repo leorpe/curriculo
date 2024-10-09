@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Leonardo Rodrigues Pereira</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Leonardo Rodrigues Pereira</h1>
+        <p>Devops | SRE | Platform | QA</p>
+    </header>
+
+    <section id="sobre-mim">
+        <h2>Sobre Mim</h2>
+        <p>Sou Bacharel em Sistemas de Informação pelo IBGEN e pós-graduado em Governança de TI pela 
+            UNIASSELVI. Também sou Técnico em Eletrônica formado na Escola Parobé. Tenho mais de 10 anos 
+            de experiência na área de Tecnologia da Informação e mais de 10 anos de experiência na área 
+            eletrônica. Trabalhei como Analista de Mudanças de TI, Analista de Gestão de Configuração 
+            Sistemas e Engenheiro de Plataforma de TI.
+        </p>
+    </section>
+
+    <section id="experiencia">
+        <h2>Experiência Profissional</h2>
+        <ul>
+            <li>
+                <h3>Sicredi</h3>
+                <p>Cargo: Engenheiro de Plataforma de TI</p>
+                <p>Período: Janeiro de 2022 - Setembro 2023</p>
+                <p>Manter e definir as pipelines de entrega de software, bem como, administrar as 
+                    ferramentas que sustentam estes processos, como por exemplo, Jenkins, Gitlab, 
+                    Subversion, Integrações dos Sistemas Legado, entre outras.
+                </p>
+            </li>
+            <li>
+                <h3>Sicredi</h3>
+                <p>Cargo: Analista de Configuração de Sistemas</p>
+                <p>Período: Janeiro de 2014 - Dezembro 2021</p>
+                <p>Automação do ciclo de entrega de software (Inspeção de Código, Build e Deploy) utilizando 
+                    ferramentas como Jenkins, Sonarqube, Artifactory, Rational Build Forge, Rational Team Concert e 
+                    uDeploy. Administração e manutenção dos servidores SubVersion e GIT; Controle e versionamento de 
+                    instalações de versões e releases de software, utilizando ferramentas tais como Tortoise SVN e 
+                    GIT. Suportar o processo de Gestão de Configuração de Sistemas, definir e aplicar metodologias 
+                    de versionamento de software, build e deploy, aliadas as melhores práticas de mercado. Capacitar 
+                    profissionais da organização e profissionais de empresas parceiras referente a disciplina de 
+                    Gerenciamento de Configuração de Sistemas utilizada pela organização, através de workshops, 
+                    realização de cursos, dojos, etc.
+                </p>
+            </li>
+            <li>
+                <h3>Sicredi</h3>
+                <p>Cargo: Analista de Mudanças de TI</p>
+                <p>Período: Fevereiro de 2013 - Dezembro 2013</p>
+                <p> Participação nas Reuniões de CAB. Avaliação de Requisições 
+                    de Mudanças - RDMs e Planos de Liberação - PL. Gerenciamento do Processo de Mudança de TI.
+                </p>
+            </li>
+            <!-- Adicione mais experiências conforme necessário -->
+        </ul>
+    </section>
+
+    <section id="educacao">
+        <h2>Educação</h2>
+        <ul>
+            <li>
+                <h3>Uniasselvi</h3>
+                <p>Curso: Pós-Graduação em Governança de TI</p>
+                <p>Conclusão: 2016</p>
+            </li>
+            <li>
+                <h3>Faculdade IBGEN</h3>
+                <p>Curso: Bacharel em Sistemas de Informação</p>
+                <p>Conclusão: 2013</p>
+            </li>            
+            <!-- Adicione mais formações conforme necessário -->
+        </ul>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>            
+            <li>GIT, SVN, Jenkins</li> 
+            <li>Agile, Devops, CI/CD</li>
+            <li>Linux, AWS, SCRUM</li> 
+            <li>Docker, Kubernetes, Openshift</li>
+            <li>Terraform, Ansible, Shell</li>
+            <li>COBIT, ITIL, Green IT</li>
+            <!-- Adicione mais habilidades conforme necessário -->
+        </ul>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <ul>
+            <li>
+                <h3>Automação de Builds</h3>
+                <p>Realizemos a automação de builds, que eram gerados via linha de comando, com o uso do 
+                    Jenkins. Agora os builds passam por uma Pipeline de Build que facilita e agiliza a entrega de 
+                    software
+                </p>
+            </li>
+            <li>
+                <h3>Automação de Alerta de Conflitos</h3>
+                <p>Com diversos desenvolvedores atuando em projetos e sustentação, vários branches são criados. 
+                    Estes branches acabam gerando conflitos que precisam ser solucionados antes de serem entregues 
+                    para instalação em produção (Merge). Para alertar os envolvidos nestes conflitos, criamos uma 
+                    planilha excell que consulta os registros na base de dados e dispara e-mails avisando os 
+                    interessados. Semanalmente são enviados em média 650 alertas.
+                </p>
+            </li>
+            <li>
+                <h3>Aplicação do SonarQube para Analise dos Códigos</h3>
+                <p>Para melhorar a qualidade dos códigos gerados pelos desenvolvedores nossa equipe realizou 
+                    a impantação do SonarQube. O SonarQube foi inserido num dos passos da Pipeline de Build e 
+                    dependendo da qualidade o build falhava.
+                </p>
+            </li>
+            <li>
+                <h3>Implantação de Alertas via Rocket.Chat</h3>
+                <p>Enviávamos alertas por e-mail para os usuários que realizavam commits e criavam tags para que eles 
+                    soubessem que os processos de build e deploy foram iniciados por eles. Para centralizar esses 
+                    alertas, utilizamos o Rochet.Chat. Aqueles que quisessem, poderiam receber os alertas por 
+                    e-mail também. A ferramenta foi tão bem recebida que os times de desenvolvimento usavam para 
+                    discutir os projetos e centralização de comunicações.
+                </p>
+            </li>
+            <!-- Adicione mais projetos conforme necessário -->
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Linkedin: <a href="https://www.linkedin.com/in/leonardo-pereira-b9572024/" target="_blank">@leonardo-pereira</a></p>
+        <p>Email: leorpe@hotmail.com</p>
+        <p>Telefone: </p>        
+        <!--<p>Telefone: (00) 12345-6789</p>-->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Leonardo Rodrigues Pereira. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
